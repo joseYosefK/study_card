@@ -1,0 +1,66 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(174, 174, 252),rgba(0, 0, 255, 0.096));
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrappe{
+    width: 90%;
+    background-color: rgba(208, 232, 253, 0.329);
+    margin: auto;
+    margin-top: 18%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 139, 0.253);
+
+}
+    h1{
+        font-size: 2em;
+        text-align: center;
+        height: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .enterdata{
+            max-width: 300px;
+            font-weight: bold;
+        }
+
+        .cardview{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 320px;
+            background-image: linear-gradient(to left,blue,rgba(0, 0, 255, 0.342));
+            border-radius: 3px;
+            box-shadow: 0px 0px 2px 2px rgba(0, 0, 139, 0.253);
+            margin-bottom: 10px;
+        }
+            .p{
+                width: 200px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+            .photograf{
+                width: 100px;
+                height: 120px;
+                background-color: white;
+                margin-top: 5px;
+                margin-bottom: 5px;
+
+            }
