@@ -64,3 +64,15 @@ main{
                 margin-bottom: 5px;
 
             }
+.qr_cod{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin: auto;
+}
+.qr{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}          
